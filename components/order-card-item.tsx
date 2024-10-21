@@ -46,8 +46,8 @@ function OrderCardItem({ order ,index }: { order: OrderCardProps,index:number })
           <CircleArrowUp className="text-accentGreen" />
         )}
       </div>
-      <h2 className="text-3xl font-semibold">{order.amount}</h2>
-      <span className=" text-lightDescriptionColor dark:text-darkDescriptionColor">
+      <h2 className=" text-xl lg:text-3xl font-semibold">{order.amount}</h2>
+      <span className="text-sm md:text-lg text-lightDescriptionColor dark:text-darkDescriptionColor">
         {order.description}
       </span>
     </motion.div>

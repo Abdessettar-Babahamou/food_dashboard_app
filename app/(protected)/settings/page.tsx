@@ -46,7 +46,7 @@ import { useSideBar } from "@/context/side-bar-context";
         {/* menu */}
         <div
           className="flex flex-col   bg-white dark:bg-darkCardColor 
-        rounded-md  min-w-[400px]"
+        rounded-md  w-full lg:min-w-[400px] lg:max-w-[400px]"
         >
           {settingsMenuItem.length > 0 &&
             settingsMenuItem.map((item) => {
